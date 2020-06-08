@@ -1,0 +1,94 @@
+    1  ls -Al
+    2  dir
+    3  git config --global user.name "michal.hermansky"
+    4  git config --global user.email "kyblik32@gmail.com"
+    5  git config
+    6  exit
+    7  notepad++ ~/.bash_profile
+    8  cat 
+    9  ls
+   10  exit
+   11  logout
+   12  git config --global core.editor
+   13  git config --global core.editor "notepad++ -multiInst -nosession"
+   14  git config --global -e
+   15  pwd
+   16  ls -al
+   17  mkdir projects
+   18  ls -Al
+   19  ls
+   20  cd projects/
+   21  pwd
+   22  git init demo
+   23  ls
+   24  cd demo/
+   25  ls -Al
+   26  git status
+   27  mate README.md
+   28  npp README.md
+   29  ls
+   30  cut README.md
+   31  cat README.md
+   32  ls README.md
+   33  git status
+   34  git add README.md 
+   35  git status
+   36  git commit -m "First file in demo commited"
+   37  git status
+   38  cd .git
+   39  ls -al
+   40  cd ..
+   41  ls -all
+   42  history
+   43  rm .git -rf
+   44  git status
+   45  ls
+   46  pwd
+   47  ls -Al
+   48  git init .
+   49  git status
+   50  npp LICENSE.md
+   51  git status
+   52  git add .
+   53  git status
+   54  git commit 
+   55  pwd
+   56  git status
+   57  git log
+   58  git commit
+   59  git show
+   60  q
+   61  s
+   62  ls
+   63  npp README.md 
+   64  git status
+   65  git ls-files
+   66  touch new.file
+   67  ls
+   68  git status
+   69  rm new.file 
+   70  git status
+   71  git commit -am "Updating README"
+   72  git log
+   73  npp README.md 
+   74  git status
+   75  git add .
+   76  git status
+   77  git reset HEAD README.md
+   78  git status
+   79  git add .
+   80  git status
+   81  git restore --staged README.md
+   82  git status
+   83  npp README.md 
+   84  git checkout -- README.md
+   85  git status
+   86  npp README.md 
+   87  git help log
+   88  git log --oneline --graph --decorate --all
+   89  git config --global alias.hist "log --oneline --graph --decorate --all"
+   90  git hist
+   91  git config --global --list
+   92  git hist -- LICENSE.md
+   93  history 
+   94  history >history.txt
