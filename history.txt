@@ -1,4 +1,5 @@
-    1  ls -Al
+    branch
+	1  ls -Al
     2  dir
     3  git config --global user.name "michal.hermansky"
     4  git config --global user.email "kyblik32@gmail.com"
@@ -92,3 +93,91 @@
    92  git hist -- LICENSE.md
    93  history 
    94  history >history.txt
+   95  ls
+   96  git status
+   97  logout
+   98  ls -Al
+   99  cd projects/
+  100  ls al
+  101  ls -al
+  102  cd demo/
+  103  ls -al
+  104  mkdir temp
+  105  cd temp
+  106  npp temporary.txt
+  107  cd ..
+  108  git status
+  109  git add
+  110  git add .
+  111  git status
+  112  git commit
+  113  git status
+  114  npp example.txt
+  115  git status
+  116  git add example.txt 
+  117  git comming -m "adding example file"
+  118  git commit -m "adding example file"
+  119  git status
+  120  ls
+  121  git mv example.txt demo.txt
+  122  git status
+  123  ls
+  124  git commit -m "renaming example"
+  125  ls
+  126  git rm demo.txt 
+  127  ls
+  128  git status
+  129  git commit -m "deleting demo file"
+  130  git status
+  131  git hist
+  132  pwd
+  133  ls
+  134  touch myfile.txt
+  135  ls
+  136  ls
+  137  mv LICENSE.md LICENSE.txt
+  138  ls -l
+  139  git status
+  140  git add -u
+  141  git status
+  142  git add -A
+  143  git status
+  144  git commit -m "rename and add"
+  145  git hist
+  146  rm myfile.txt 
+  147  git status
+  148  git add -u
+  149  git status
+  150  git commit -m "deleted file"
+  151  git hist
+  152  pwd
+  153  git status
+  154  ls -al
+  155  npp app.log
+  156  git status
+  157  npp .gitignore
+  158  git status
+  159  git add .gitignore 
+  160  git commit -m "add git ignore file"
+  161  git status
+  162  ls -al
+  163  rm app.log 
+  164  npp application.log
+  165  git status
+  166  git hist
+  167  git diff 62b7218 HEAD
+  168  git config --global diff.tool p4merge
+  169  git config
+  170  git config --global
+  171  git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+  172  git config --global difftool.prompt false
+  173  git config --global merge.tool p4merge
+  174  git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+  175  git config --global mergetool.prompt false
+  176  history
+  177  git config --global -e
+  178  git hist
+  179  git diff 62b7218 HEAD
+  180  q
+  181  git difftool 62b7218 HEAD
+  182  history>history.txt
